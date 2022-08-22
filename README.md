@@ -14,7 +14,9 @@
 
 ## What steps are required to validate this project?
 - Clone this repo on your local.
+- Run `npm i`
 - Run `npm run dev`
+- Navigate to `http://localhost:3000/` in your browser.
 - Validate styles match the mock provided.
 - Ensure that the thumbnails navigate to the vimeo url that corresponds with the video.
 - Ensure that that the description and title displayed corresponds with the video.

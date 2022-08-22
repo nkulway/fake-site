@@ -1,0 +1,45 @@
+.horizontal {
+  border: 1px solid #E8E8E8;
+  margin: 2.5rem;
+}
+
+.footerItems {
+  margin-right: 2.5rem;
+}
+
+.footerLogo {
+  margin-right: auto;
+}
+
+.footer ul {
+  color: #88939E;
+  display: flex;
+  font-size: 22px;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.footerInfo {
+  display: flex;
+}
+
+.infoItem {
+  margin-right: 5%;
+  margin: 5%;
+  list-style-type: none;
+}
+
+.infoItem h2 {
+  color: #EE2D1C;
+  size: 36px;
+  line-height: 36px;
+  align-items: flex-start;
+}
+
+.infoItem li {
+  color: #88939E;
+  font-weight: lighter;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.accountTitle {
+  text-align: center;
+  color: #4C4C51;
+  size: 48px;
+  line-height: 48px;
+  font-weight: lighter;
+  align-items: center;
+}
+
+.accountInfo {
+  text-align: center;
+  text-align: center;
+  color: #88939E;
+  font-size: 22px;
+  line-height: 28px;
+  text-overflow: ellipsis;
+}
+
+.navLink {
+  text-align: center;
+  color: #88939E;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,289 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  margin: 3rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: none;
+  align-items: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  border-radius: 50px;
+
+}
+
+.item:first-child {
+  margin-right: 20px
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.card h1 {
+  color: #4C4C51;
+  size: 48px;
+  line-height: 48px;
+  font-weight: lighter;
+  align-items: flex-start;
+  margin-right: 50%;
+}
+
+.card p {
+  color: #88939E;
+  font-size: 22px;
+  line-height: 28px;
+  text-overflow: ellipsis;
+}
+
+.gradientBackground {
+  background: linear-gradient(#EE2E1D, #FFB1B5);
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0.4;
+}
+
+.gradientFilter {
+  z-index: 20;
+}
+
+@media (max-width: 1024px){
+  .card {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .gradientBackground {
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 46%;
+    height: 49%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .card p {
+    color: #88939E;
+    font-size: 22px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    max-width: 65%;
+  }
+
+  .item {
+    margin: 40px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .item:first-child {
+    margin-left: 260px;
+  }
+
+  .gradientBackground {
+    margin-left: 137px;
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 65%;
+    height: 52.5%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+
+  .gradientFilter {
+    z-index: 20;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .card p {
+    color: #88939E;
+    font-size: 22px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    max-width: 65%;
+  }
+
+  .item {
+    margin: 40px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .item:first-child {
+    margin-left: 260px;
+  }
+
+  .gradientBackground {
+    margin-left: 137px;
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 91%;
+    height: 31.6%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+
+  .gradientFilter {
+    z-index: 20;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .card p {
+    display: none;
+  }
+
+  .item {
+    margin: 40px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .item:first-child {
+    margin-left: 260px;
+  }
+
+  .gradientBackground {
+    margin-left: 1px;
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 93%;
+    height: 41.3%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+
+  .gradientFilter {
+    z-index: 20;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .card p {
+    display: none;
+  }
+
+  .item {
+    margin: 40px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .item:first-child {
+    margin-left: 260px;
+  }
+
+  .gradientBackground {
+    margin-left: 11px;
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 103%;
+    height: 41.5%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+
+  .gradientFilter {
+    z-index: 20;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .card p {
+    display: none;
+  }
+
+  .item {
+    margin: 40px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .item:first-child {
+    margin-left: 260px;
+  }
+
+  .gradientBackground {
+    margin-left: 11px;
+    background: linear-gradient(to bottom, #EE2E1D, #FFB1B5);
+    width: 120%;
+    height: 41.5%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.5;
+  }
+
+  .gradientFilter {
+    z-index: 20;
+  }
+}

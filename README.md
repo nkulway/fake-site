@@ -22,6 +22,3 @@
 - Ensure that that the description and title displayed corresponds with the video.
 - Validate `Account` and `Help` buttons navigate to respected pages.
 - Validate `Do something awesome` button navigates to something awesome.
-
-## What additional information can be provided?
-- I would like to thank you, Dan and the rest of your team at First Street, for the opportunity to complete this assessment. I am eager to receive any feedback or guidence you may have, please do not hesitate to reach out.
